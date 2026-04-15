@@ -21,7 +21,7 @@ def data():
 
     elif(data == 'off'):                          # 받아온 led값이 off일때
         red_led.off()                             # led를 끔
-        return home()                             # 다시 첫화면으로 돌아
+        return home()                             # 다시 첫화면으로 돌아감
 
 if __name__ == '__main__':                        
    app.run(host = '0.0.0.0', port = '80')         # 모든 IP(0.0.0.0)에서 80번 포트로 서버 실행

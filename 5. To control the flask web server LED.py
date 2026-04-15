@@ -5,7 +5,7 @@ from gpiozero import LED                          # LED 제어를 위해 gpiozer
 
 app = Flask(__name__)                             # Flask 앱을 생성
 
-red_led = LED(21)                                 # 21번 핀에 연결된 LED를 제어하기 위해 설
+red_led = LED(21)                                 # 21번 핀에 연결된 LED를 제어하기 위해 설정
 
 @app.route('/')                                   # 기본주소인 (/)에 접속했을 때 밑에 home함수 실행
 def home():                                       
